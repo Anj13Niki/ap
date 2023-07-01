@@ -1,0 +1,72 @@
+/* .portfolio{
+    background: var(--color-primary);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  } */
+  .portfolio{
+    padding: 7rem;
+    padding-bottom: 4rem;
+    background-color: var(--bg-color);
+  }
+  .portfolio h2{
+    margin-bottom: 2rem;
+  }
+  
+  .cards{
+    text-align: center;
+    width:100vw;
+    height:100vh;
+    border-radius: 10px;
+    /* background:rgba(255, 255, 255, 0.388); */
+    background:var(--color-primary);
+    background: url('../../assets/bac.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(80px);
+    box-shadow: 0px 0px 15px -8px white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color:var(--color-white);
+    /* margin: 1.5rem 1.5rem; */
+   
+  }
+  .cards:hover{
+    /* background: var(--color-primary); */
+    backdrop-filter: blur(80px);
+    box-shadow: rgba(45, 42, 44, 0.67) 0px 7px 29px 0px;
+    transition: 0.9s;
+    cursor: pointer;
+  }
+   .cards .links{
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+    justify-content: center;
+    margin-top: 50px;
+   font-size: 1.1rem;
+   padding-bottom: 2rem;
+  }
+  .card-text p{
+    font-size: 1rem;
+  }
+  .cards .links a{
+    color:white;
+  }
+  .cards .links :hover{
+    color:blue;
+  }
+  .arrowup{
+    margin-left: 5px;
+    color:white;
+  }
+  .arrowup:hover{
+    color:blue;
+  }
+  @media screen and (max-width:600px) {
+    .portfolio{
+        padding: 3rem;
+    }
+  }

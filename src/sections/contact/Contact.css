@@ -1,0 +1,52 @@
+h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+label{
+    color:#fff;
+}
+.contact{
+    display: flex;
+    border-radius: 1rem;
+    padding: 2rem 1rem;
+    margin:auto;
+    max-width: 600px;
+    background: var(--color-primary);
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+    justify-content: center;
+    width:100%;
+    
+}
+form input, form textarea{
+    /* margin-bottom: 1rem; */
+    padding:10px 18px;
+    font-size: 1.2rem;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10%);
+    border-color: var(--color-white);
+    border-radius: 2rem;
+    color:var(--color-white);
+}
+form input:hover{
+    border: 1px solid var(--color-white);
+}
+form textarea:hover{
+    border: 1px solid var(--color-white);
+}
+.btn{
+    border: 2px solid var(--color-white);
+}
+.btn:hover{
+    border-color: var(--color-white);
+}
+@media screen  and (max-width:600px){
+    .contact{
+        margin: 2rem;
+    }
+}
