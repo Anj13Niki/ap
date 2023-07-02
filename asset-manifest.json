@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/anjaliportfolio/static/css/main.12e3dab5.css",
+    "main.js": "/anjaliportfolio/static/js/main.7364456a.js",
+    "static/media/LOGO.png": "/anjaliportfolio/static/media/LOGO.f36c4c730ca84110d740.png",
+    "static/media/AnjaliLatestResumeUpdated1.pdf": "/anjaliportfolio/static/media/AnjaliLatestResumeUpdated1.d755b41ec08ad5dc1e8c.pdf",
+    "static/media/AnjaliPic2.jpeg": "/anjaliportfolio/static/media/AnjaliPic2.e3966f7f1f7d007832db.jpeg",
+    "static/media/AnjaliPic5.jpeg": "/anjaliportfolio/static/media/AnjaliPic5.6407319234de1d570ee0.jpeg",
+    "static/media/bac.jpg": "/anjaliportfolio/static/media/bac.d13ec2bb4e55ff99481a.jpg",
+    "static/media/Sun.svg": "/anjaliportfolio/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/anjaliportfolio/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/anjaliportfolio/index.html",
+    "main.12e3dab5.css.map": "/anjaliportfolio/static/css/main.12e3dab5.css.map",
+    "main.7364456a.js.map": "/anjaliportfolio/static/js/main.7364456a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12e3dab5.css",
+    "static/js/main.7364456a.js"
+  ]
+}
