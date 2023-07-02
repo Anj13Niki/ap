@@ -23,7 +23,7 @@
   --color-dark:hsl(var(--primary-hue),5%,var(--dark-lightness));
 
   --container-width: 96%;
-  --container-width-lg:100%
+  --container-width-lg:100%;
 
   --border-radius-1:1.2rem;
   --border-radius-2:0.8rem;
